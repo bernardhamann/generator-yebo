@@ -1,0 +1,32 @@
+{
+  "name": "generator-yebo",
+  "version": "0.0.1",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "bernardhamann/generator-yebo",
+  "author": {
+    "name": "Bernard",
+    "email": "",
+    "url": "https://github.com/bernardhamann"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "glob": "^5.0.5",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
