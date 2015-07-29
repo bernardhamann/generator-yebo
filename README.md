@@ -7,7 +7,27 @@
 > [Yeoman](http://yeoman.io) generator
 
 
-## Getting Started
+## Instalation
+
+npm install -g generator-yebo
+
+
+## Description
+
+A yeoman generator to setup a basic express app that uses MongoDB, Stylus(with Jeet, Rupture and Nib),EJS and Gulp.
+
+This package is not quite ready for use yet. But you are welcome to try it out.
+
+
+
+## Usage 
+
+cd to the directory where you want the app to be 
+
+yo yebo
+
+
+## Yeoman
 
 ### What is Yeoman?
 
