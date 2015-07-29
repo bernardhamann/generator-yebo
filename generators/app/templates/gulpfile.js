@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var nodemon = require('gulp-nodemon');
-var plumber = require('gulp-plumber');
 var livereload = require('gulp-livereload');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
@@ -9,7 +8,6 @@ var rupture = require('rupture');
 
 gulp.task('stylus', function () {
   gulp.src('./public/css/*.styl')
-    .pipe(plumber())
     .pipe(stylus({
         use: [
                 nib(),

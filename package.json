@@ -1,6 +1,6 @@
 {
   "name": "generator-yebo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A yeoman generator to setup a basic express app that uses MongoDB, Stylus(with Jeet, Rupture and Nib),EJS and Gulp. This package is not quite ready for use yet. But you are welcome to try it out.",
   "license": "MIT",
   "main": "app/index.js",
