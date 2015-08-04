@@ -19,6 +19,6 @@
     "rupture": "~0.6.1",
     "gulp": "~3.9.0",
     "gulp-stylus": "~2.0.0",
-    "gulp-nodemon": "~2.0.2",
+    "gulp-nodemon": "~2.0.2"
   }
 }
