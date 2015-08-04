@@ -42,7 +42,7 @@ module.exports = yeoman.generators.Base.extend({
                 message: 'Select a database to use:',
                 choices: [
                   'None',
-                  'MongoDB'
+                  'MongoDB (not yet supported)'
             ],
             store: true
             }];
