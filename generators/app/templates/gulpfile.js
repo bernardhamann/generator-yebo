@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var nodemon = require('gulp-nodemon');
-var livereload = require('gulp-livereload');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
 var jeet = require('jeet');
@@ -24,7 +23,6 @@ gulp.task('watch', function() {
 });
 
 gulp.task('develop', function () {
-  livereload.listen();
   nodemon({
     script: 'bin/www',
     ext: 'js ejs',

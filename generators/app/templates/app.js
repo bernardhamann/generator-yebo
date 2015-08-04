@@ -11,6 +11,9 @@ var config = require('./config.js');
 
 var app = express();
 
+// Setup the sitewide variables
+app.locals.siteName = config.SITENAME;
+
 // Database setup
 // Connect to the database
 mongoose.connect(config.MONGO_URL);

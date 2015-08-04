@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %> - <%= siteName %></title>
+        <meta name="description" content="<%= description %>">
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="<%= description %>"/>
+        <meta property="og:url:" content="http://localhost/"/>
+        <meta property="og:image" content="/images/logo.png"/>
+        <% include ../partials/head %>
+    </head>
+    <body>
+        <% include ../partials/header %>
+
+        <section class="section" id="content-section">
+            <%= title %>
+            <%= description %>
+        </section>
+
+        <% include ../partials/footer %>
+
+    </body>
+</html>
