@@ -5,6 +5,8 @@ ssh root@13.656.554.443;
 
 // cd to the directory where you want the apps to go
 
+cd deploy
+
 // git clone https..........
 
 // if its a private repo enter your password
@@ -19,7 +21,7 @@ nano /etc/init/appname.conf;
 
 start on filesystem and started networking
 respawn
-chdir /root/appname
+chdir /root/deploy/appname
 exec /usr/local/bin/node bin/www
 
 ////////////////////////////////////

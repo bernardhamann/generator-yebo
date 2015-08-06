@@ -4,7 +4,6 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
 var fs = require('fs');
 var glob = require('glob');
 var config = require('./config.js');
@@ -14,9 +13,7 @@ var app = express();
 // Setup the sitewide variables
 app.locals.siteName = config.SITENAME;
 
-// Database setup
-// Connect to the database
-mongoose.connect(config.MONGO_URL);
+
 // setup the app.js to load all the js files in the models folder
 fs.readdirSync(__dirname + '/models' ).forEach(function(filename){
     if (~filename.indexOf('.js')) require(__dirname + '/models/' + filename);
@@ -41,8 +38,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Setup the controllers and routes
 var users = require('./routes/users');
 app.use('/users', users);
-var users = require('./routes/posts');
-app.use('/posts', users);
 var index = require('./routes/index');
 app.use('/', index);
 

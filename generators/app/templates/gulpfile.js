@@ -14,8 +14,7 @@ gulp.task('stylus', function () {
                 rupture()
         ]
     }))
-    .pipe(gulp.dest('./public/css'))
-    .pipe(livereload());
+    .pipe(gulp.dest('./public/css'));
 });
 
 gulp.task('watch', function() {
@@ -26,11 +25,7 @@ gulp.task('develop', function () {
   nodemon({
     script: 'bin/www',
     ext: 'js ejs',
-  }).on('restart', function () {
-    setTimeout(function () {
-      livereload.changed(__dirname);
-    }, 500);
-  });
+    });
 });
 
 gulp.task('default', [
