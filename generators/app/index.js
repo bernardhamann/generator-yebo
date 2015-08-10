@@ -57,54 +57,8 @@ module.exports = yeoman.generators.Base.extend({
     writing: {
         folders: function () {
           this.fs.copy(
-            this.templatePath('/bin'),
-            this.destinationPath('/bin')
-          );
-          this.fs.copy(
-            this.templatePath('/models'),
-            this.destinationPath('/models')
-          );
-          this.fs.copy(
-            this.templatePath('/public'),
-            this.destinationPath('/public')
-          );
-          this.fs.copy(
-            this.templatePath('/routes'),
-            this.destinationPath('/routes')
-          );
-          this.fs.copy(
-            this.templatePath('/views'),
-            this.destinationPath('/views')
-          );
-        },
-
-        rootfiles: function () {
-          this.fs.copy(
-            this.templatePath('app.js'),
-            this.destinationPath('app.js')
-          );
-          this.fs.copy(
-            this.templatePath('config.js'),
-            this.destinationPath('config.js')
-          );
-          this.fs.copy(
-            this.templatePath('deploy.md'),
-            this.destinationPath('deploy.md')
-          );
-          this.fs.copy(
-            this.templatePath('gulpfile.js'),
-            this.destinationPath('gulpfile.js')
-          );
-          this.fs.copy(
-            this.templatePath('package.json'),
-            this.destinationPath('package.json')
-          );
-        },
-
-        projectfiles: function () {
-          this.fs.copy(
-            this.templatePath('jshintrc'),
-            this.destinationPath('.jshintrc')
+            this.templatePath('/'),
+            this.destinationPath('/')
           );
         }
     },
