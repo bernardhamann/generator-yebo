@@ -1,6 +1,6 @@
 # generator-yebo
 
-[![NPMVersion](https://img.shields.io/badge/version-0.0.7-green.svg)](https://www.npmjs.com/package/generator-yebobase)
+[![NPMVersion](https://img.shields.io/badge/version-0.0.8-green.svg)](https://www.npmjs.com/package/generator-yebobase)
 
 [![BuildStatus](https://secure.travis-ci.org/bernardhamann/generator-yebo.png?branch=master)](https://travis-ci.org/bernardhamann/generator-yebo)
 
