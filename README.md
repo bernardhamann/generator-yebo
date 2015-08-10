@@ -1,6 +1,6 @@
 # generator-yebo
 
-[![NPMVersion](https://img.shields.io/badge/version-0.0.8-green.svg)](https://www.npmjs.com/package/generator-yebobase)
+[![NPMVersion](https://img.shields.io/badge/version-0.0.9-green.svg)](https://www.npmjs.com/package/generator-yebobase)
 
 [![BuildStatus](https://secure.travis-ci.org/bernardhamann/generator-yebo.png?branch=master)](https://travis-ci.org/bernardhamann/generator-yebo)
 
@@ -19,7 +19,7 @@ npm install -g generator-yebo
 
 ## Description
 
-A yeoman generator to setup a basic express app that uses Stylus(with Jeet, Rupture and Nib),EJS and Gulp.
+A yeoman generator to setup a basic express app that uses Stylus(with Jeet, Rupture and Nib),Handlebars and Gulp.
 
 This package is not quite ready for use yet, mainly becuase the structure and working might change significantly from one version to the next. But you are welcome to try it out if you stick with the version that worked for you there should not be any issues.
 
