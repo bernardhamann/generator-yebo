@@ -9,7 +9,7 @@
 
 ## Dont Use this
 
-Might not work and will problably be unreliable 
+This is an experiment.Not ready for use.
 
 
 ## Instalation
@@ -21,7 +21,7 @@ npm install -g generator-yebo
 
 A yeoman generator to setup a basic express app that uses Stylus(with Jeet, Rupture and Nib),Handlebars and Gulp.
 
-This package is not quite ready for use yet, mainly becuase the structure and working might change significantly from one version to the next. But you are welcome to try it out if you stick with the version that worked for you there should not be any issues.
+This package is not quite ready for use yet, mainly becuase the structure and working might change significantly from one version to the next.
 
 
 ## Usage 
